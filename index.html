@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova AI Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <aside class="sidebar">
+
+        <h2>🤖 Nova AI</h2>
+
+        <button id="newChatBtn">＋ New Chat</button>
+
+        <button id="voiceBtn">🎤 Voice Input</button>
+
+        <button id="darkBtn">🌙 Dark Mode</button>
+
+        <button id="clearBtn">🗑️ Clear Memory</button>
+
+        <div class="bottom">
+            <b>Nova AI Assistant</b>
+            <small>Your personal assistant</small>
+        </div>
+
+    </aside>
+
+    <main class="chat">
+
+        <header>
+            <div>
+                <h1>Nova AI</h1>
+                <span>● Ready</span>
+            </div>
+        </header>
+
+        <section id="messages" class="messages"></section>
+
+        <div class="typing" id="typing">
+            Nova is thinking...
+        </div>
+
+        <div class="input-area">
+
+            <textarea
+                id="userInput"
+                placeholder="Ask Nova anything..."
+                rows="1">
+            </textarea>
+
+            <button id="micBtn">🎤</button>
+
+            <button id="sendBtn">➤</button>
+
+        </div>
+
+        <div class="bottom-text">
+            Nova AI • Your personal assistant
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
