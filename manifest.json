@@ -1,12 +1,4 @@
-{
-  "name": "Nova AI Assistant",
-  "short_name": "Nova AI",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#111827",
-  "theme_color": "#2563eb",
-  "description": "My personal AI assistant"
-}
+
 {
   "name": "Nova AI Assistant",
   "short_name": "Nova AI",
